@@ -12,3 +12,11 @@ puts("World")
 =end
 
 print("こんにちは".class())
+
+print("こんにちは\nお元気ですか\n")
+print(%Q[こんにちは"佐藤"さん\nお元気ですか], "\n")
+# ヒアドキュメント
+print(<<"EOS")
+こんにちは
+　お元気ですか
+EOS
