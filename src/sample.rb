@@ -40,3 +40,12 @@ num = 3
 str6 = str5 * num
 print(str6, "\n")
 
+# 文字列オブジェクトに文字列を追加
+str7 = "こんにちは"
+str7 << "山田さん"
+print(str7, "\n")
+
+str8 = "こんにちは"
+str8.concat("田中さん")
+print(str8, "\n")
+
