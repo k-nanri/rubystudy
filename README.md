@@ -5,4 +5,4 @@
 - Ruby入門
 
 [https://www.javadrive.jp/ruby/]
-ヒアドキュメントまで実施
+文字列　まで実施
