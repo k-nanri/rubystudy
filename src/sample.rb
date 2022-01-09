@@ -20,3 +20,23 @@ print(<<"EOS")
 こんにちは
 　お元気ですか
 EOS
+
+# 文字列の中に式を展開
+print("名前は#{'伊藤'}です\n")
+print("年齢は#{20 - 5}です\n")
+name = "東京"
+print("出身は#{name}です\n")
+
+# 文字列の連結
+str1 = "名前は"
+str2 = "佐藤"
+str3 = "です"
+str4 = str1 + str2 + str3
+print(str4, "\n")
+
+# 文字列の指定の回数繰り返した文字列を作成
+str5 = "Good!"
+num = 3
+str6 = str5 * num
+print(str6, "\n")
+
