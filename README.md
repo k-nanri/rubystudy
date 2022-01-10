@@ -5,4 +5,4 @@
 - Ruby入門
 
 [https://www.javadrive.jp/ruby/]
-文字列　まで実施
+変数への代入　まで実施
