@@ -63,3 +63,9 @@ print("20 * 15 = ", calc1, ", 30 - 18 = ", calc2, "\n")
 name = "加藤"
 print("こんにちは ", name, "さん", "\n")
 
+# 別のオブジェクトを代入
+val = 10
+    print(val, "¥n")
+
+val = "こんにちは"
+print(val, "¥n")
