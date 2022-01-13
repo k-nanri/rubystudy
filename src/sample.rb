@@ -68,4 +68,20 @@ val = 10
     print(val, "¥n")
 
 val = "こんにちは"
-print(val, "¥n")
+print(val, "\n")
+
+# 変数に対する演算
+num = 10
+calc = num + 20
+print(num, " + 20 = ", calc, "\n")
+num1 = 10
+num2 = 8
+num3 = 15
+sum = num1 + num2 + num3
+print(num1, " + ", num2, " + ", num3, " = ", sum, "\n")
+
+# 多重代入
+city1, city2, city3 = "東京", "大阪"
+print("city1 = ", city1, "\n")
+print("city2 = ", city2, "\n")
+print("city3 = ", city3, "\n")
