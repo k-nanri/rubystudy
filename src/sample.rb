@@ -85,3 +85,20 @@ city1, city2, city3 = "東京", "大阪"
 print("city1 = ", city1, "\n")
 print("city2 = ", city2, "\n")
 print("city3 = ", city3, "\n")
+
+# 定数
+ZEI = 0.05
+price = 1000 * (1 + ZEI)
+print("料金は", price, "円です\n")
+
+# 組み込み定数
+print("RUBY_VERSION:", RUBY_VERSION, "\n")
+
+# if
+
+amari = 10 % 3
+
+if amari != 0 then
+    print("割り切れませんでした\n")
+    print("余りは", amari, "です\n")
+end
