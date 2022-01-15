@@ -102,3 +102,21 @@ if amari != 0 then
     print("割り切れませんでした\n")
     print("余りは", amari, "です\n")
 end
+
+#  関係演算子
+
+num = 18
+if num == 20 then
+    print("numは20と等しい")
+end
+
+val = "Red"
+redcolor = "Red"
+if val == redcolor then
+    print("col は Red です\n")
+end
+
+old = 25
+if old < 40 && old > 20 then
+    print("年齢は20から40まで間です\n")
+end
