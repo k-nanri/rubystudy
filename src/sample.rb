@@ -120,3 +120,28 @@ old = 25
 if old < 40 && old > 20 then
     print("年齢は20から40まで間です\n")
 end
+
+# if - else - end
+amari = 10 % 3
+
+if amari == 0 then
+    print("割り切れました\n")
+else
+    print("割り切れませんでした\n")
+    print("余りは", amari, "です\n")
+end
+
+# 複数の条件分岐
+city = "Nagoya"
+
+if city == "Tokyo" then
+    print("東京です\n")
+elsif city == "Osaka" then
+    print("大阪です\n")
+elsif city == "Nagoya" then
+    print("名古屋です\n")
+else
+    print("その他の都市です\n")
+end
+
+
