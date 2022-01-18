@@ -144,4 +144,21 @@ else
     print("その他の都市です\n")
 end
 
+# unless
+old = 40
 
+unless old < 20 then
+    print("年齢は", old, "です\n")
+end
+
+# case
+sum = 0
+product = "Apple"
+
+case product
+when "Melon" then
+    sum = sum + 500
+when "Apple" then
+    sum = sum + 150
+end
+print("料金は", sum, "です\n")
