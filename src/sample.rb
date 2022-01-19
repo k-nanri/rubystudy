@@ -162,3 +162,11 @@ when "Apple" then
     sum = sum + 150
 end
 print("料金は", sum, "です\n")
+
+num = 20
+pref = "Tokyo"
+debug = nil
+print("num = ", num, "\n") if debug
+
+debug = "on"
+print("pref = ", pref, "\n") if debug
