@@ -170,3 +170,19 @@ print("num = ", num, "\n") if debug
 
 debug = "on"
 print("pref = ", pref, "\n") if debug
+
+# while文
+num = 0
+while num < 5 do
+    print("num = ", num, "\n")
+    num = num + 1
+end
+print("End\n")
+
+# until文
+num = 5
+until num <= 0 then
+    print("num = ", num, "\n")
+    num = num - 1
+end
+print("End\n")
