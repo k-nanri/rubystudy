@@ -181,8 +181,16 @@ print("End\n")
 
 # until文
 num = 5
-until num <= 0 then
+until num <= 0 do
     print("num = ", num, "\n")
     num = num - 1
 end
 print("End\n")
+
+# for文
+for num in 1...3 do
+    print("num = ", num, "\n")
+end
+print("End\n")
+
+
