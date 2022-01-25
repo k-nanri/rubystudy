@@ -193,4 +193,26 @@ for num in 1...3 do
 end
 print("End\n")
 
+# each
+(18...20).each {|num|
+    print("num = ", num, "\n")
+}
 
+("Ax".."Bb").each do |str|
+    print("str = ", str, "\n")
+end
+
+# times
+10.times {
+    print("Hello\n")
+}
+
+# upto
+3.upto(7) {|num|
+    print("num = ", num, "\n")
+}
+
+# downto
+7.downto(3) {|num|
+    print("num = ", num, "\n")
+}
