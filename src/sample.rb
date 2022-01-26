@@ -216,3 +216,23 @@ end
 7.downto(3) {|num|
     print("num = ", num, "\n")
 }
+
+# loop
+num = 1
+loop {
+    print("num = ", num, "\n")
+    num += 1
+    if num > 10 then
+        break
+    end
+}
+
+# array
+
+array = ["Yamada", "Taro", "man", 24]
+
+print("氏名: " + array[0] + "\n")
+print("性別: " + array[1] + "\n")
+print("年齢: " + array[2] + "\n")
+
+
