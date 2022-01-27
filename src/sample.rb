@@ -236,3 +236,14 @@ print("性別: " + array[1] + "\n")
 print("年齢: " + array[2] + "\n")
 
 
+# 要素へのオブジェクト代入
+array = Array["赤", "あお", "緑"]
+print(array[0], "\n")
+print(array[1], "\n")
+print(array[2], "\n")
+
+array[1] = "青"
+print(array[0], "\n")
+print(array[1], "\n")
+print(array[2], "\n")
+
