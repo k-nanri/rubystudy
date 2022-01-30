@@ -247,3 +247,13 @@ print(array[0], "\n")
 print(array[1], "\n")
 print(array[2], "\n")
 
+# 配列のサイズの取得
+array2 = Array["red", "blue", "green"]
+print("length = ", array2.length, "\n")
+# nitemsは非推奨
+#print("nitems = ", array2.nitems, "\n")
+
+array2[5] = "white"
+print("array[5] = white\n")
+print("length = ", array2.length, "\n")
+#print("nitems = ", array2.nitems, "\n")
