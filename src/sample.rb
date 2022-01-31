@@ -257,3 +257,18 @@ array2[5] = "white"
 print("array[5] = white\n")
 print("length = ", array2.length, "\n")
 #print("nitems = ", array2.nitems, "\n")
+
+# 配列に対する繰り返し
+array = Array["赤", "青", "緑"]
+for var in array do
+    print("Color = ", var, "\n")
+end
+
+array = Array[80, 91, 67]
+sum = 0
+array.each{|num|
+    sum += num
+    print("金額 : ", num, "円\n")
+}
+print("合計金額は", sum, "円です\n")
+
